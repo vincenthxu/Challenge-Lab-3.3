@@ -11,7 +11,7 @@
         {
             for (int i = 0; i < ints.Length; i++)
             {
-                if (ints[i] < target)
+                if (ints[i] <= target)
                 {
                     for (int j = i; j < ints.Length; j++)
                     {
